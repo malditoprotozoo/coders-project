@@ -9,7 +9,7 @@ h1 {
 	margin-top: 0;
 	text-shadow: 2px 2px 3px grey;
 	font-weight: normal;
-	font-size: 50px;
+	font-size: 45px;
 }
 
 .line {
@@ -21,78 +21,16 @@ h1 {
 }
 
 #pictures {
-	height: 470px;
-	width: 850px;
-	overflow: hidden;
+	height: 25%;
+	width: 65%;
 	-webkit-filter: sepia(30%);
 	filter: sepia(30%);
 }
 
-#steven {
+.img {
 	height: 200px;
 	width: 200px;
 	background-size: 100%;
-	background-image: url('../img/steven.png');
-	display: inline-block;
-	margin-right: 20px;
-	margin-bottom: 20px;
-	box-shadow: 10px 10px;
-	position: relative;
-}
-
-#pearl {
-	height: 200px;
-	width: 200px;
-	background-size: 100%;
-	background-image: url('../img/pearl.jpg');
-	display: inline-block;
-	margin-right: 20px;
-	margin-bottom: 20px;
-	box-shadow: 10px 10px;
-	position: relative;
-}
-
-#garnet {
-	height: 200px;
-	width: 200px;
-	background-size: 100%;
-	background-image: url('../img/garnet.jpg');
-	display: inline-block;
-	margin-right: 20px;
-	margin-bottom: 20px;
-	box-shadow: 10px 10px;
-	position: relative;
-}
-
-#amethyst {
-	height: 200px;
-	width: 200px;
-	background-size: 100%;
-	background-image: url('../img/amethyst.jpg');
-	display: inline-block;
-	margin-right: 20px;
-	margin-bottom: 20px;
-	box-shadow: 10px 10px;
-	position: relative;
-}
-
-#connie {
-	height: 200px;
-	width: 200px;
-	background-size: 100%;
-	background-image: url('../img/connie.jpg');
-	display: inline-block;
-	margin-right: 20px;
-	margin-bottom: 20px;
-	box-shadow: 10px 10px;
-	position: relative;
-}
-
-#peridot {
-	height: 200px;
-	width: 200px;
-	background-size: 100%;
-	background-image: url('../img/peridot.jpg');
 	display: inline-block;
 	margin-right: 20px;
 	margin-bottom: 20px;
@@ -103,6 +41,30 @@ h1 {
 .img:hover {
 	-webkit-filter: saturate(150%);
 	filter: saturate(150%);
+}
+
+#steven {
+	background-image: url('../img/steven.png');
+}
+
+#pearl {
+	background-image: url('../img/pearl.jpg');
+}
+
+#garnet {
+	background-image: url('../img/garnet.jpg');
+}
+
+#amethyst {
+	background-image: url('../img/amethyst.jpg');
+}
+
+#connie {
+	background-image: url('../img/connie.jpg');
+}
+
+#peridot {
+	background-image: url('../img/peridot.jpg');
 }
 
 p {
