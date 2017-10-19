@@ -1,0 +1,127 @@
+header {
+	width: 850px;
+	height: 100px;
+}
+
+h1 {
+	font-family: "VT323", monospace;
+	margin-bottom: 10px;
+	margin-top: 0;
+	text-shadow: 2px 2px 3px grey;
+	font-weight: normal;
+	font-size: 50px;
+}
+
+.line {
+	height: 4px;
+	width: 10%;
+	background-color: black;
+	box-shadow: 2px 2px 3px grey;
+	margin-bottom: 0;
+}
+
+#pictures {
+	height: 470px;
+	width: 850px;
+	overflow: hidden;
+	-webkit-filter: sepia(30%);
+	filter: sepia(30%);
+}
+
+#steven {
+	height: 200px;
+	width: 200px;
+	background-size: 100%;
+	background-image: url('../img/steven.png');
+	display: inline-block;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	box-shadow: 10px 10px;
+	position: relative;
+}
+
+#pearl {
+	height: 200px;
+	width: 200px;
+	background-size: 100%;
+	background-image: url('../img/pearl.jpg');
+	display: inline-block;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	box-shadow: 10px 10px;
+	position: relative;
+}
+
+#garnet {
+	height: 200px;
+	width: 200px;
+	background-size: 100%;
+	background-image: url('../img/garnet.jpg');
+	display: inline-block;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	box-shadow: 10px 10px;
+	position: relative;
+}
+
+#amethyst {
+	height: 200px;
+	width: 200px;
+	background-size: 100%;
+	background-image: url('../img/amethyst.jpg');
+	display: inline-block;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	box-shadow: 10px 10px;
+	position: relative;
+}
+
+#connie {
+	height: 200px;
+	width: 200px;
+	background-size: 100%;
+	background-image: url('../img/connie.jpg');
+	display: inline-block;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	box-shadow: 10px 10px;
+	position: relative;
+}
+
+#peridot {
+	height: 200px;
+	width: 200px;
+	background-size: 100%;
+	background-image: url('../img/peridot.jpg');
+	display: inline-block;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	box-shadow: 10px 10px;
+	position: relative;
+}
+
+.img:hover {
+	-webkit-filter: saturate(150%);
+	filter: saturate(150%);
+}
+
+p {
+	font-family: "Ubuntu Mono", monospace;
+	position: absolute;
+	bottom: -15px;
+	right: 2px;
+	color: white;
+	text-shadow: 2px 2px 2px grey, -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#footer {
+	width: 100%;
+	font-size: 12px;
+	display: inline-block;
+	padding: 0;
+	font-family: "Ubuntu Mono", monospace;
+}
+
+#institution {
+	background-color: #F9A91A;
+
