@@ -27,8 +27,8 @@ h1 {
 #pictures {
 	height: 25%;
 	width: 65%;
-	-webkit-filter: sepia(30%);
-	filter: sepia(30%);
+	-webkit-filter: sepia(40%);
+	filter: sepia(40%);
 }
 
 .img {
